@@ -1,0 +1,34 @@
+{
+  "name": "app_web_express_25",
+  "version": "1.0.0",
+  "description": "aplicación web multipropósito",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-01": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mauricio723/app_web_express_25.git"
+  },
+  "keywords": [
+    "node",
+    "app",
+    "web",
+    "express"
+  ],
+  "author": "Salvador Mauricio Vilches Jerez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mauricio723/app_web_express_25/issues"
+  },
+  "homepage": "https://github.com/Mauricio723/app_web_express_25#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
