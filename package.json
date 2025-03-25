@@ -26,7 +26,9 @@
   "homepage": "https://github.com/Mauricio723/app_web_express_25#readme",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.13.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

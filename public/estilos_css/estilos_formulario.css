@@ -1,0 +1,112 @@
+.estilo_form {
+    background-color: rgb(143, 243, 130);
+    margin: 5px;
+    padding: 5px;
+}
+.div_form_01 {
+    background-color: rgb(213, 230, 222);
+    margin: 10px;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div_form_02 {
+    background-color: rgb(254, 255, 245);
+    margin: 10px;
+    padding: 10px;
+}
+.div_form_02 button {
+    display: block;
+    background-color: rgb(215, 226, 228);
+    color: rgb(16, 31, 22);
+    width: 40%;    
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.div_form_02 button:hover {
+    background-color: rgb(235, 219, 78);
+    color: rgb(10, 31, 29);
+    cursor: pointer;
+}
+.div_label {
+    margin: 5px;
+    padding: 5px;
+}
+.div_input {
+    background-color: rgb(138, 204, 206);
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* Sección para estilos de ventana modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #b9c099;
+    width: 50%;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #83e018;
+    /*width: 80%;
+    max-width: 300px;*/
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close-button {
+    color: #221b18;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div_mensaje_modal {
+    background-color: rgb(18, 41, 83);
+    color: rgb(230, 226, 223);    
+    margin: 10px;
+    padding: 10px;
+}
+.div_modal_01 {
+    background-color: rgb(247, 241, 239);
+    color: rgb(16, 31, 22);
+    margin: 10px;
+    padding: 10px;
+}
+
+.div_modal_boton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.div_modal_boton button {
+   
+    background-color: black;
+    color: white;   
+    border: none;    
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;      
+}
+.div_modal_boton button:hover {
+    background-color: white;
+    color: black;    
+}

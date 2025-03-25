@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Frases</title>
+
+    <link rel="stylesheet" href="/estilos_css/estilos_main.css">
+
+    <link rel="stylesheet" href="/estilos_css/estilos_formulario.css">
+
+</head>
+
+<body>
+    <header class="estilo_header">
+        <h1 class="estilo_titulo">Frases Célebres</h1>
+    </header>
+    <main class="estilo_main">
+        <section class="estilo_section">
+
+            <article class="estilo_article">
+
+                <div class="div_article_01">
+                    
+                    <!--<button id="showAlert">Mostrar Alerta</button>-->
+
+                    <div id="customAlert" class="modal">
+                        
+                        <div class="modal-content">
+
+                             <div class="div_modal_01">
+                                <span class="close-button">&times;</span>
+                                <p>Los datos se enviaron satisfactoriamente</p>
+                            </div>
+
+                            <div id="div_mensaje_retorno" class="div_modal_01"></div>
+
+                           
+                            <div class="div_modal_boton">
+                                <button id="button_continuar">continuar</button>
+                            </div>                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="estilo_article">
+                <div class="div_article_01">
+                    <h3 class="estilo_titulo">Formulario de ingreso de frases</h3>
+
+                    <div class="div_article_02">
+
+                        <!-- formulario para enviar con FormData -->
+                        <form id="id_form_nueva_frace" class="estilo_form">
+                            <div class="div_form_01">
+                                <div class="div_form_02">
+                                    <div class="div_label">
+                                        <label for="nueva_frace">Frase Célebre Nueva</label>
+                                    </div>
+                                    <div class="div_input">
+                                        <textarea id="nueva_frace" name="nueva_frace" rows="4" cols="50" maxlength="200"
+                                            required>Ingresar Frase Célebre
+                                        </textarea>
+                                    </div>
+
+                                </div>
+                                <div class="div_form_02">
+                                    <div class="div_label">
+                                        <label for="nuevo_autor">Autor</label>
+                                    </div>
+                                    <div class="div_input">
+                                        <input type="text" id="nuevo_autor" name="nuevo_autor"
+                                            placeholder="ingresar autor" required>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="div_form_02">
+                                    <button type="submit">Enviar Nueva Frace</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="estilo_footer">
+        <div class="div_footer_01">
+            <p class="">Autor: Salvador Mauricio Vilches Jerez</p>
+            <p class="">Fecha publicación: Actualmente en etapa de desarrollo</p>
+        </div>
+    </footer>
+
+    <script>
+
+        const formulario_nueva_frace = document.getElementById("id_form_nueva_frace");
+
+        formulario_nueva_frace.addEventListener("submit", function (event) {
+            event.preventDefault();    // Evita el envío del formulario por defecto 
+
+            const myFormData = new FormData(event.currentTarget);
+
+            //console.log("myFormData: ", myFormData.get("nueva_frace"));
+
+            // Se puede detener la ejecución en cualquier lugar con: deburger
+            // para mostrar lo que hay en formData: myFormData.get("clave"),  y nos muestra el valor.
+            // para establecer un nuevo valor: myFormData.set("clave", "valor"); 
+
+            fetch("/fraces/agregar_frase_nuevo", {
+                method: "POST",
+                body: myFormData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    //console.log("Formulario enviado satisfactoriamente: ", data);
+                    //alert("Formulario enviado con éxito");
+                    //alert("Los datos de formulario fueron enviados satisfactoriamente: ", data);
+                    // redireccionamos hacia la ruta que nos muestra todas las fraces
+                    //window.location.assign("/fraces/traer_frases");
+
+                    // mostramos una ventana modal
+                    document.getElementById("customAlert").style.display = "block";
+
+                    document.getElementById("div_mensaje_retorno").innerHTML = "Mensaje: " + data.mensaje;
+
+                })
+                .catch(error => {
+                    console.error("Error: ", error);
+                    alert("Hubo un error al enviar formulario");
+                });
+
+        }, false);
+
+        // Sección para controlar una ventana modal 
+
+
+        /*
+        document.getElementById('showAlert').addEventListener('click', function () {
+            document.getElementById('customAlert').style.display = 'block';
+        });
+        */
+
+        document.querySelector('.close-button').addEventListener('click', function () {
+            document.getElementById('customAlert').style.display = 'none';
+        });
+
+        document.querySelector("#button_continuar").addEventListener("click", function () {
+            //alert("Se presionó el botón para continuar");
+            window.location.assign("/fraces/obtener_frases");
+        }); 
+
+        /*
+        window.addEventListener('click', function (event) {
+            if (event.target == document.getElementById('customAlert')) {
+                document.getElementById('customAlert').style.display = 'none';
+            }
+        });
+        */
+
+    </script>
+
+</body>
+
+</html>

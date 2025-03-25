@@ -8,6 +8,6 @@ const datos_conexion_db_local = {
     database: "db_app_web_25"
 }; 
 
-const dbconection = await mysql.createConection(datos_conexion_db_local); 
+const dbconection = await mysql.createConnection(datos_conexion_db_local); 
 
 export default dbconection; 

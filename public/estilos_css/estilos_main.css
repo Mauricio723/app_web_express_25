@@ -25,18 +25,25 @@
     padding: 5px;
 }
 .estilo_section {
-    background-color: rgb(164, 164, 216);    
     padding: 5px;
 }
 .div_section_01 {
-    background-color: rgb(172, 221, 172);
+    margin: 5px;
     padding: 5px;
 }
 .estilo_article {
-    background-color: rgb(231, 233, 222);
-    margin: 10px;
+    background-color: rgb(209, 223, 186);
+    margin: 5px;
     padding: 5px;
-    border: 1px solid black;
+}
+.div_article_01 {
+    margin: 5px;
+    padding: 5px;
+}
+.div_article_02 {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(47, 47, 121);
 }
 .estilo_parrafo {
     background-color: rgb(187, 208, 228);
@@ -48,8 +55,7 @@
     color: rgb(230, 233, 225);
     padding: 5px;
 }
-.div_footer_01 {
-    
+.div_footer_01 {    
     margin: 5px;
     padding: 5px;
 }
