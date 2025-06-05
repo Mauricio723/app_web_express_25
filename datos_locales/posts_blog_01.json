@@ -1,0 +1,34 @@
+[
+    {
+        "id_post": 1, 
+        "titulo": "Título post 01", 
+        "contenido": "contenido post 01, contenido post 01, contenido post 01.", 
+        "autor": "Nombre Autor post 01", 
+        "fecha_publicacion": "12/05/2025", 
+        "categoria": "categoria_post_01"
+    }, 
+    {
+        "id_post": 2, 
+        "titulo": "Título post 02", 
+        "contenido": "contenido post 02, contenido post 02, contenido post 02.", 
+        "autor": "Nombre Autor post 02", 
+        "fecha_publicacion": "12/05/2025", 
+        "categoria": "categoria_post_02"
+    }, 
+    {
+        "id_post": 3, 
+        "titulo": "Título post 03", 
+        "contenido": "contenido post 03, contenido post 03, contenido post 03.", 
+        "autor": "Nombre Autor post 03", 
+        "fecha_publicacion": "12/05/2025", 
+        "categoria": "categoria_post_03"
+    }, 
+    {
+        "id_post": 4, 
+        "titulo": "Título post 04", 
+        "contenido": "contenido post 04, contenido post 04, contenido post 04.", 
+        "autor": "Nombre Autor post 04", 
+        "fecha_publicacion": "12/05/2025", 
+        "categoria": "categoria_post_04"
+    }
+]

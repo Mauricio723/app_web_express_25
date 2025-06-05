@@ -1,4 +1,4 @@
-import dbconection from "./db_conection.js"; 
+import dbconection from "../db_conexiones/db_conection.js"; 
 
 export class FrasesModel {
 
@@ -80,9 +80,9 @@ export class FrasesModel {
         } else {
             console.log("No se ingresó un autor, mostrar todo");
 
-            const [todasLasFraces] = await dbconexion.query("SELECT * FROM fraces;"); 
+            const [todasLasFrases] = await dbconection.query("SELECT * FROM fraces;"); 
 
-            return todasLasFraces;
+            return todasLasFrases;
 
         }
 

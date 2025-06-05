@@ -54,14 +54,14 @@
                     <div class="div_article_02">
 
                         <!-- formulario para enviar con FormData -->
-                        <form id="id_form_nueva_frace" class="estilo_form">
+                        <form id="id_form_nueva_frase" class="estilo_form">
                             <div class="div_form_01">
                                 <div class="div_form_02">
                                     <div class="div_label">
-                                        <label for="nueva_frace">Frase Célebre Nueva</label>
+                                        <label for="nueva_frase">Frase Célebre Nueva</label>
                                     </div>
                                     <div class="div_input">
-                                        <textarea id="nueva_frace" name="nueva_frace" rows="4" cols="50" maxlength="200"
+                                        <textarea id="nueva_frase" name="nueva_frase" rows="4" cols="50" maxlength="200"
                                             required>Ingresar Frase Célebre
                                         </textarea>
                                     </div>
@@ -101,9 +101,9 @@
 
     <script>
 
-        const formulario_nueva_frace = document.getElementById("id_form_nueva_frace");
+        const formulario_nueva_frase = document.getElementById("id_form_nueva_frase");
 
-        formulario_nueva_frace.addEventListener("submit", function (event) {
+        formulario_nueva_frase.addEventListener("submit", function (event) {
             event.preventDefault();    // Evita el envío del formulario por defecto 
 
             const myFormData = new FormData(event.currentTarget);
@@ -114,7 +114,7 @@
             // para mostrar lo que hay en formData: myFormData.get("clave"),  y nos muestra el valor.
             // para establecer un nuevo valor: myFormData.set("clave", "valor"); 
 
-            fetch("/fraces/agregar_frase_nuevo", {
+            fetch("/frases/agregar_frase_nuevo", {
                 method: "POST",
                 body: myFormData
             })
@@ -154,7 +154,7 @@
 
         document.querySelector("#button_continuar").addEventListener("click", function () {
             //alert("Se presionó el botón para continuar");
-            window.location.assign("/fraces/obtener_frases");
+            window.location.assign("/frases/obtener_frases");
         }); 
 
         /*

@@ -3,30 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba de ejs</title>
+    <title>web SurCode25</title>
+
+    <link rel="stylesheet" href="/estilos_css/bootstrap.min.css">
 
     <link rel="stylesheet" href="/estilos_css/estilos_main.css">
 
+    <link rel="stylesheet" href="/estilos_css/colores_const.css">
+
 </head>
-<body class="estilo_body">
-    <header class="estilo_header">
-        <h1 class="estilo_titulo">Bienvenidos al sitio de Mauricio</h1>
+<body class="bg_darkseagreen">
+    <header class="bg_slategrey">
+        <h1 class="text_floralwhite text-center mx-1 my-1 px-1 py-1">Bienvenidos al sitio de Mauricio</h1>
     </header>
-    <main class="estilo_main">
-        <section class="estilo_section">
-            <div class="div_section_01">
-                <h3 class="estilo_subtitulo">Inicio</h3>
-                <p class="estilo_parrafo">Párrafo inicio, Párrafo inicio, Párrafo inicio, 
+    
+    <div>
+        <%- include('parciales_index/navegacion_01') %>
+    </div>
+    
+    <main class="bg-info px-1 py-1">
+        <section class="bg-success mx-2 my-2 px-1 py-1">
+            <div class="bg-light mx-1 my-1 px-1 py-1">
+                <h3 class="">Inicio</h3>
+                <p class="">Párrafo inicio, Párrafo inicio, Párrafo inicio, 
                     Párrafo inicio, Párrafo inicio.</p>
             </div>
         </section>
     </main>
-    <footer class="estilo_footer">
-        <div class="div_footer_01">
-            <p class="">Autor: Salvador Mauricio Vilches Jerez</p>
-            <p class="">Fecha publicación: Actualmente en etapa de desarrollo</p>
+    <footer class="bg_slategrey">
+        <div class="">
+            <p class="text-light mx-1 my-1 px-1 py-1">Autor: Salvador Mauricio Vilches Jerez</p>
+            <p class="text-light mx-1 my-1 px-1 py-1">Fecha publicación: Actualmente en etapa de desarrollo</p>
         </div>
     </footer>   
+
+    <script src="/scripts_js/bootstrap.bundle.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,859 @@
+.bg_aliceblue {
+    background-color: aliceblue;
+}
+.text_aliceblue {
+    color: aliceblue;
+}
+.bg_antiquewhite {
+    background-color: antiquewhite;
+}
+.text_antiquewhite {
+    color: antiquewhite;
+}
+.bg_aqua {
+    background-color: aqua;
+}
+.text_aqua {
+    background-color: aqua;
+}
+.bg_aquamarine {
+    background-color: aquamarine;
+}
+.text_aquamarine {
+    color: aquamarine;	
+}
+.bg_azure {
+    background-color: azure; 
+}      
+.text_azure {
+    color: azure;
+}  	
+.bg_beige {
+    background-color: beige;
+}    
+.text_beige {
+    color: beige;
+}  
+.bg_bisque {
+    background-color: bisque;
+}
+.text_bisque {
+    color: bisque;
+}	
+.bg_black {
+    background-color: black;
+}
+.text_black {
+    color: black;
+}
+.bg_blanchedalmond {
+    background-color: blanchedalmond;
+}
+.text_blanchedalmond {
+    color: blanchedalmond;
+}
+.bg_blue {
+    background-color: blue;
+}
+.text_blue {
+    color: blue;
+}	
+.bg_blueviolet {
+    background-color: blueviolet;
+}
+.text_blueviolet {
+    color: blueviolet;
+}	
+.bg_brown {
+    background-color: brown;
+}
+.text_brown {
+    color: brown;
+}		
+.bg_burlywood {
+    background-color: burlywood;
+}
+.text_burlywood {
+    color: burlywood;
+}
+.bg_cadetblue {
+    background-color: cadetblue;
+}
+.text_cadetblue {
+    color: cadetblue;
+}	
+.bg_chartreuse {
+    background-color: chartreuse;
+}
+.text_chartreuse {
+    color: chartreuse;
+}	
+.bg_chocolate {
+    background-color: chocolate;
+}
+.text_chocolate {
+    color: chocolate;
+}	
+.bg_coral {
+    background-color: coral;
+}
+.text_coral {
+    color: coral;
+}	
+.bg_cornflowerblue {
+    background-color: cornflowerblue;
+}
+.text_cornflowerblue {
+    color: cornflowerblue;
+}	
+.bg_cornsilk {
+    background-color: cornsilk;
+}
+.text_cornsilk {
+    color: cornsilk;
+}	
+.bg_crimson {
+    background-color: crimson;
+}
+.text_crimson {
+    color: crimson;
+}	
+.bg_cyan {
+    background-color: cyan;
+}
+.text_cyan {
+    color: cyan;
+}	
+.bg_darkblue {
+    background-color: darkblue;
+}
+.text_darkblue {
+    color: darkblue;
+}	
+.bg_darkcyan {
+    background-color: darkcyan;
+}
+.text_darkcyan {
+    color: darkcyan;
+}	
+.bg_darkgoldenrod {
+    background-color: darkgoldenrod;
+}
+.text_darkgoldenrod {
+    color: darkgoldenrod;
+}	
+.bg_darkgray {
+    background-color: darkgray;
+}
+.text_darkgray {
+    color: darkgray;
+}	
+.bg_darkgreen {
+    background-color: darkgreen;
+}
+.text_darkgreen {
+    color: darkgreen;
+}	
+.bg_darkgrey {
+    background-color: darkgrey;
+}
+.text_darkgrey {
+    color: darkgrey;
+}	
+.bg_darkkhaki {
+    background-color: darkkhaki;
+}
+.text_darkkhaki {
+    color: darkkhaki;
+}	
+.bg_darkmagenta {
+    background-color: darkmagenta;
+}
+.text_darkmagenta {
+    color: darkmagenta;
+}	
+.bg_darkolivegreen {
+    background-color: darkolivegreen;
+}
+.text_darkolivegreen {
+    color: darkolivegreen;
+}	
+.bg_darkorange {
+    background-color: darkorange;
+}
+.text_darkorange {
+    color: darkorange;
+}	
+.bg_darkorchid {
+    background-color: darkorchid;
+}
+.text_darkorchid {
+    color: darkorchid;
+}	
+.bg_darkred {
+    background-color: darkred;
+}
+.text_darkred {
+    color: darkred;
+}	
+.bg_darksalmon {
+    background-color: darksalmon;
+}
+.text_darksalmon {
+    color: darksalmon;
+}	
+.bg_darkseagreen {
+    background-color: darkseagreen;
+}
+.text_darkseagreen {
+    color: darkseagreen;
+}	
+.bg_darkslateblue {
+    background-color: darkslateblue;
+}
+.text_darkslateblue {
+    color: darkslateblue;
+}	
+.bg_darkslategrey {
+    background-color: darkslategrey;
+}
+.text_darkslategrey {
+    color: darkslategrey;
+}	
+.bg_darkturquoise {
+    background-color: darkturquoise;
+}
+.text_darkturquoise {
+    color: darkturquoise;
+}	
+.bg_darkviolet {
+    background-color: darkviolet;
+}
+.text_darkviolet {
+    color: darkviolet;
+}	
+.bg_deeppink {
+    background-color: deeppink;
+}
+.text_deeppink {
+    color: deeppink;
+}	
+.bg_deepskyblue {
+    background-color: deepskyblue;
+}
+.text_deepskyblue {
+    color: deepskyblue;
+}	
+.bg_dimgrey {
+    background-color: dimgrey;
+}
+.text_dimgrey {
+    color: dimgrey;
+}	
+.bg_dodgerblue {
+    background-color: dodgerblue;
+}
+.text_dodgerblue {
+    color: dodgerblue;
+}	
+.bg_firebrick {
+    background-color: firebrick;
+}
+.text_firebrick {
+    color: firebrick;
+}	
+.bg_floralwhite {
+    background-color: floralwhite;
+}
+.text_floralwhite {
+    color: floralwhite;
+}	
+.bg_forestgreen {
+    background-color: forestgreen;
+}
+.text_forestgreen {
+    color: forestgreen;
+}	
+.bg_fuchsia {
+    background-color: fuchsia;
+}
+.text_fuchsia {
+    color: fuchsia;
+}	
+.bg_gainsboro {
+    background-color: gainsboro;
+}
+.text_gainsboro {
+    color: gainsboro;
+}	
+.bg_ghostwhite {
+    background-color: ghostwhite;
+}
+.text_ghostwhite {
+    color: ghostwhite;
+}	
+.bg_gold {
+    background-color: gold;
+}
+.text_gold {
+    color: gold;
+}	
+.bg_goldenrod {
+    background-color: goldenrod;
+}
+.text_goldenrod {
+    color: goldenrod;
+}	
+.bg_gray {
+    background-color: gray;
+}
+.text_gray {
+    color: gray;
+}	
+.bg_green {
+    background-color: green;
+}
+.text_green {
+    color: green;
+}	
+.bg_greenyellow {
+    background-color: greenyellow;
+}
+.text_greenyellow {
+    color: greenyellow;
+}	
+.bg_grey {
+    background-color: grey;
+}
+.text_grey {
+    color: grey;
+}	
+.bg_honeydew {
+    background-color: honeydew;
+}
+.text_honeydew {
+    color: honeydew;
+}	
+.bg_hotpink {
+    background-color: hotpink;
+}
+.text_hotpink {
+    color: hotpink;
+}	
+.bg_indianred {
+    background-color: indianred;
+}
+.text_indianred {
+    color: indianred;
+}	
+.bg_indigo {
+    background-color: indigo;
+}
+.text_indigo {
+    color: indigo;
+}	
+.bg_ivory {
+    background-color: ivory;
+}
+.text_ivory {
+    color: ivory;
+}	
+.bg_khaki {
+    background-color: khaki;
+}
+.text_khaki {
+    color: khaki;
+}	
+.bg_lavender {
+    background-color: lavender;
+}
+.text_lavender {
+    color: lavender;
+}	
+.bg_lavenderblush {
+    background-color: lavenderblush;
+}
+.text_lavenderblush {
+    color: lavenderblush;
+}	
+.bg_lawngreen {
+    background-color: lawngreen;
+}
+.text_lawngreen {
+    color: lawngreen;
+}	
+.bg_lemonchiffon {
+    background-color: lemonchiffon;
+}
+.text_lemonchiffon {
+    color: lemonchiffon;
+}	
+.bg_lightblue {
+    background-color: lightblue;
+}
+.text_lightblue {
+    color: lightblue;
+}	
+.bg_lightcoral {
+    background-color: lightcoral;
+}
+.text_lightcoral {
+    color: lightcoral;
+}	
+.bg_lightcyan {
+    background-color: lightcyan;
+}
+.text_lightcyan {
+    color: lightcyan;
+}	
+.bg_lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+.text_lightgoldenrodyellow {
+    color: lightgoldenrodyellow;
+}	
+.bg_lightgray {
+    background-color: lightgray;
+}
+.text_lightgray {
+    color: lightgray;
+}	
+.bg_lightgreen {
+    background-color: lightgreen;
+}
+.text_lightgreen {
+    color: lightgreen;
+}	
+.bg_lightgrey {
+    background-color: lightgrey;
+}
+.text_lightgrey {
+    color: lightgrey;
+}	
+.bg_lightpink {
+    background-color: lightpink;
+}
+.text_lightpink {
+    color: lightpink;
+}	
+.bg_lightsalmon {
+    background-color: lightsalmon;
+}
+.text_lightsalmon {
+    color: lightsalmon;
+}	
+.bg_lightseagreen {
+    background-color: lightseagreen;
+}
+.text_lightseagreen {
+    color: lightseagreen;
+}	
+.bg_lightskyblue {
+    background-color: lightskyblue;
+}
+.text_lightskyblue {
+    color: lightskyblue;
+}	
+.bg_lightslategrey {
+    background-color: lightslategrey;
+}
+.text_lightslategrey {
+    color: lightslategrey;
+}	
+.bg_lightsteelblue {
+    background-color: lightsteelblue;
+}
+.text_lightsteelblue {
+    color: lightsteelblue;
+}	
+.bg_lightyellow {
+    background-color: lightyellow;
+}
+.text_lightyellow {
+    color: lightyellow;
+}	
+.bg_lime {
+    background-color: lime;
+}
+.text_lime {
+    color: lime;
+}	
+.bg_limegreen {
+    background-color: limegreen;
+}
+.text_limegreen {
+    color: limegreen;
+}	
+.bg_linen {
+    background-color: linen;
+}
+.text_linen {
+    color: linen;
+}	
+.bg_magenta {
+    background-color: magenta;
+}
+.text_magenta {
+    color: magenta;
+}	
+.bg_maroon {
+    background-color: maroon;
+}
+.text_maroon {
+    color: maroon;
+}	
+.bg_mediumaquamarine {
+    background-color: mediumaquamarine;
+}
+.text_mediumaquamarine {
+    color: mediumaquamarine;
+}	
+.bg_mediumblue {
+    background-color: mediumblue;
+}
+.text_mediumblue {
+    color: mediumblue;
+}	
+.bg_mediumorchid {
+    background-color: mediumorchid;
+}
+.text_mediumorchid {
+    color: mediumorchid;
+}	
+.bg_mediumpurple {
+    background-color: mediumpurple;
+}
+.text_mediumpurple {
+    color: mediumpurple;
+}	
+.bg_mediumseagreen {
+    background-color: mediumseagreen;
+}
+.text_mediumseagreen {
+    color: mediumseagreen;
+}	
+.bg_mediumslateblue {
+    background-color: mediumslateblue;
+}
+.text_mediumslateblue {
+    color: mediumslateblue;
+}	
+.bg_mediumspringgreen {
+    background-color: mediumspringgreen;
+}
+.text_mediumspringgreen {
+    color: mediumspringgreen;
+}	
+.bg_mediumturquoise {
+    background-color: mediumturquoise;
+}
+.text_mediumturquoise {
+    color: mediumturquoise;
+}	
+.bg_mediumvioletred {
+    background-color: mediumvioletred;
+}
+.text_mediumvioletred {
+    color: mediumvioletred;
+}	
+.bg_midnightblue {
+    background-color: midnightblue;
+}
+.text_midnightblue {
+    color: midnightblue;
+}	
+.bg_mintcream {
+    background-color: mintcream;
+}
+.text_mintcream {
+    color: mintcream;
+}	
+.bg_mistyrose {
+    background-color: mistyrose;
+}
+.text_mistyrose {
+    color: mistyrose;
+}	
+.bg_moccasin {
+    background-color: moccasin;
+}
+.text_moccasin {
+    color: moccasin;
+}	
+.bg_navajowhite {
+    background-color: navajowhite;
+}
+.text_navajowhite {
+    color: navajowhite;
+}	
+.bg_navy {
+    background-color: navy;
+}
+.text_navy {
+    color: navy;
+}	
+.bg_oldlace {
+    background-color: oldlace;
+}
+.text_oldlace {
+    color: oldlace;
+}	
+.bg_olive {
+    background-color: olive;
+}
+.text_olive {
+    color: olive;
+}	
+.bg_olivedrab {
+    background-color: olivedrab;
+}
+.text_olivedrab {
+    color: olivedrab;
+}	
+.bg_orange {
+    background-color: orange;
+}
+.text_orange {
+    color: orange;
+}	
+.bg_orangered {
+    background-color: orangered;
+}
+.text_orangered {
+    color: orangered;
+}	
+.bg_orchid {
+    background-color: orchid;
+}
+.text_orchid {
+    color: orchid;
+}	
+.bg_palegoldenrod {
+    background-color: palegoldenrod;
+}
+.text_palegoldenrod {
+    color: palegoldenrod;
+}	
+.bg_palegreen {
+    background-color: palegreen;
+}
+.text_palegreen {
+    color: palegreen;
+}	
+.bg_paleturquoise {
+    background-color: paleturquoise;
+}
+.text_paleturquoise {
+    color: paleturquoise;
+}	
+.bg_palevioletred {
+    background-color: palevioletred;
+}
+.text_palevioletred {
+    color: palevioletred;
+}	
+.bg_papayawhip {
+    background-color: papayawhip;
+}
+.text_papayawhip {
+    color: papayawhip;
+}	
+.bg_peachpuff {
+    background-color: peachpuff;
+}
+.text_peachpuff {
+    color: peachpuff;
+}	
+.bg_peru {
+    background-color: peru;
+}
+.text_peru {
+    color: peru;
+}	
+.bg_pink {
+    background-color: pink;
+}
+.text_pink {
+    color: pink;
+}	
+.bg_plum {
+    background-color: plum;
+}
+.text_plum {
+    color: plum;
+}	
+.bg_powderblue {
+    background-color: powderblue;
+}
+.text_powderblue {
+    color: powderblue;
+}	
+.bg_purple {
+    background-color: purple;
+}
+.text_purple {
+    color: purple;
+}	
+.bg_red {
+    background-color: red;
+}
+.text_red {
+    color: red;
+}	
+.bg_rosybrown {
+    background-color: rosybrown;
+}
+.text_rosybrown {
+    color: rosybrown;
+}	
+.bg_royalblue {
+    background-color: royalblue;
+}
+.text_royalblue {
+    color: royalblue;
+}	
+.bg_saddlebrown {
+    background-color: saddlebrown;
+}
+.text_saddlebrown {
+    color: saddlebrown;
+}	
+.bg_salmon {
+    background-color: salmon;
+}
+.text_salmon {
+    color: salmon;
+}	
+.bg_sandybrown {
+    background-color: sandybrown;
+}
+.text_sandybrown {
+    color: sandybrown;
+}	
+.bg_seagreen {
+    background-color: seagreen;
+}
+.text_seagreen {
+    color: seagreen;
+}	
+.bg_seashell {
+    background-color: seashell;
+}
+.text_seashell {
+    color: seashell;
+}	
+.bg_sienna {
+    background-color: sienna;
+}
+.text_sienna {
+    color: sienna;
+}	
+.bg_silver {
+    background-color: silver;
+}
+.text_silver {
+    color: silver;
+}	
+.bg_skyblue {
+    background-color: skyblue;
+}
+.text_skyblue {
+    color: skyblue;
+}	
+.bg_slateblue {
+    background-color: slateblue;
+}
+.text_slateblue {
+    color: slateblue;
+}	
+.bg_slategrey {
+    background-color: slategrey;
+}
+.text_slategrey {
+    color: slategrey;
+}	
+.bg_snow {
+    background-color: snow;
+}
+.text_snow {
+    color: snow;
+}	
+.bg_springgreen {
+    background-color: springgreen;
+}
+.text_springgreen {
+    color: springgreen;
+}	
+.bg_steelblue {
+    background-color: steelblue;
+}
+.text_steelblue {
+    color: steelblue;
+}	
+.bg_tan {
+    background-color: tan;
+}
+.text_tan {
+    color: tan;
+}	
+.bg_teal {
+    background-color: teal;
+}
+.text_teal {
+    color: teal;
+}	
+.bg_thistle {
+    background-color: thistle;
+}
+.text_thistle {
+    color: thistle;
+}	
+.bg_tomato {
+    background-color: tomato;
+}
+.text_tomato {
+    color: tomato;
+}	
+.bg_turquoise {
+    background-color: turquoise;
+}
+.text_turquoise {
+    color: turquoise;
+}	
+.bg_violet {
+    background-color: violet;
+}
+.text_violet {
+    color: violet;
+}	
+.bg_wheat {
+    background-color: wheat;
+}
+.text_wheat {
+    color: wheat;
+}	
+.bg_white {
+    background-color: white;
+}
+.text_white {
+    color: white;
+}	
+.bg_whitesmoke {
+    background-color: whitesmoke;
+}
+.text_whitesmoke {
+    color: whitesmoke;
+}	
+.bg_yellow {
+    background-color: yellow;
+}
+.text_yellow {
+    color: yellow;
+}	
+.bg_yellowgreen {
+    background-color: yellowgreen;
+}
+.text_yellowgreen {
+    color: yellowgreen;
+}	
+	

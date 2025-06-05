@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1, 
+        "frase": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito.", 
+        "autor": "Albert Schweitzer"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Si quieres algo que nunca tuviste, tendrás que hacer algo que nunca hiciste.", 
+        "autor": "Thomas Jefferson"
+    }, 
+    {
+        "id": 1, 
+        "frase": "", 
+        "autor": ""
+    }, 
+    {
+        "id": 1, 
+        "frase": "El éxito consiste en ir de fracaso en fracaso sin perder el entusiasmo.", 
+        "autor": "Winston Churchill"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No midas tu éxito por el dinero que ganas, sino por el impacto que tienes en los demás.", 
+        "autor": "Michelle Obama"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El único lugar donde el éxito viene antes que el trabajo es en el diccionario.", 
+        "autor": "Vidal Sassoon"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.", 
+        "autor": "Robert Collier"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Si puedes soñarlo, puedes hacerlo.", 
+        "autor": "Walt Disney"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El fracaso es la oportunidad de comenzar de nuevo, pero con más inteligencia.", 
+        "autor": "Henry Ford"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La disciplina es el puente entre las metas y el éxito.", 
+        "autor": "Jim Rohn"
+    }, 
+    {
+        "id": 1, 
+        "frase": "«No esperes. El momento perfecto nunca llegará", 
+        "autor": "Napoleón Hill"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Amar no es mirarse el uno al otro, sino mirar juntos en la misma dirección.", 
+        "autor": "Antoine de Saint-Exupéry"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor no necesita ser perfecto, solo necesita ser verdadero.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "«Donde hay amor, hay vida.", 
+        "autor": "Mahatma Gandhi"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor es la única fuerza capaz de transformar a un enemigo en un amigo.", 
+        "autor": " Martin Luther King Jr."
+    }, 
+    {
+        "id": 1, 
+        "frase": "Amar es encontrar en la felicidad de otro tu propia felicidad.", 
+        "autor": "Gottfried Leibniz"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El verdadero amor no es otra cosa que el deseo inevitable de ayudar al otro a que sea quien es.", 
+        "autor": "Jorge Bucay"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor no es posesión, es apreciación.", 
+        "autor": "Osho"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor comienza cuando alguien necesita ser entendido.", 
+        "autor": "Fiódor Dostoievski"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor es como el viento, no puedes verlo, pero puedes sentirlo.", 
+        "autor": "Nicholas Sparks"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El amor no tiene edad; siempre está naciendo.", 
+        "autor": "Blaise Pascal"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Solo sé que no sé nada.", 
+        "autor": "Sócrates"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Aquello que no me mata, me hace más fuerte.", 
+        "autor": "Friedrich Nietzsche"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Pienso, luego existo.", 
+        "autor": "René Descartes"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La vida debe entenderse hacia atrás, pero vivirse hacia adelante.", 
+        "autor": "Søren Kierkegaard"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Conócete a ti mismo.", 
+        "autor": "Inscripción en el Templo de Apolo (Delfos)"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No hagas a otros lo que no quieras que te hagan a ti.", 
+        "autor": "Confucio"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La libertad es la obediencia a la ley que uno mismo se ha dado.", 
+        "autor": "Jean-Jacques Rousseau"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El hombre es la medida de todas las cosas", 
+        "autor": "Protágoras"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La educación es el encendido de una llama, no el llenado de un recipiente.", 
+        "autor": "Sócrates"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La duda es el principio de la sabiduría.", 
+        "autor": "Aristóteles"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La vida es lo que pasa mientras estás ocupado haciendo otros planes.", 
+        "autor": "John Lennon"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No cuentes los días, haz que los días cuenten.", 
+        "autor": "Muhammad Ali"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La vida es un 10% lo que me ocurre y un 90% cómo reacciono a ello.", 
+        "autor": "Charles R. Swindoll"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Vive como si fueras a morir mañana. Aprende como si fueras a vivir para siempre.", 
+        "autor": " Mahatma Gandhi"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La vida es muy simple, pero insistimos en complicarla.", 
+        "autor": "Confucio"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El propósito de la vida es vivirla, no solo existir.", 
+        "autor": "George Bernard Shaw"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La felicidad no es algo hecho. Viene de tus propias acciones.", 
+        "autor": "Dalai Lama"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No busques que los acontecimientos ocurran como tú quieres, sino desea que ocurran como ocurren y serás feliz.", 
+        "autor": "Epicteto"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La vida no se trata de encontrarte a ti mismo, sino de crearte a ti mismo.", 
+        "autor": "George Bernard Shaw"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El secreto de la vida no es hacer lo que te gusta, sino amar lo que haces.", 
+        "autor": "Mark Twain"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La sabiduría es la hija de la experiencia.", 
+        "autor": "Leonardo da Vinci"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El conocimiento es poder.", 
+        "autor": "Francis Bacon"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Aprende como si fueras a vivir para siempre.", 
+        "autor": "Mahatma Gandhi"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La educación es el arma más poderosa para cambiar el mundo.", 
+        "autor": " Nelson Mandela"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Saber que no se sabe, eso es humildad. Pensar que uno sabe lo que no sabe, eso es enfermedad.", 
+        "autor": "Lao Tse"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Un líder es aquel que conoce el camino, sigue el camino y muestra el camino.", 
+        "autor": "John C. Maxwell"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El éxito de un equipo no es cosa de un solo hombre, sino de todos.", 
+        "autor": "Pelé"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Haz lo que puedas, con lo que tengas, donde estés.", 
+        "autor": "Theodore Roosevelt"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La innovación distingue a un líder de un seguidor.", 
+        "autor": "Steve Jobs"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Si tus acciones inspiran a otros a soñar más, aprender más y ser más, eres un líder.", 
+        "autor": "Jack Welch"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El futuro pertenece a quienes creen en la belleza de sus sueños.", 
+        "autor": "Eleanor Roosevelt"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No dejes que el miedo a perder sea mayor que la emoción de ganar.", 
+        "autor": "Robert Kiyosaki"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Si no te gusta algo, cámbialo. Si no puedes cambiarlo, cambia tu actitud.", 
+        "autor": "Maya Angelou"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La motivación te ayuda a empezar; el hábito te mantiene en marcha.", 
+        "autor": "Jim Ryun"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El único límite para nuestros logros es lo que creemos posible.", 
+        "autor": "Les Brown"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La felicidad no es algo hecho. Viene de tus propias acciones.", 
+        "autor": "Dalai Lama"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La gratitud convierte lo que tenemos en suficiente.", 
+        "autor": "Aesop"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La felicidad no depende de lo que pasa a tu alrededor, sino de lo que pasa dentro de ti.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Disfruta de las pequeñas cosas, porque un día mirarás atrás y te darás cuenta de que eran las grandes.", 
+        "autor": "Robert Brault"
+    }, 
+    {
+        "id": 1, 
+        "frase": "", 
+        "autor": ""
+    }, 
+    {
+        "id": 1, 
+        "frase": "La alegría está en la lucha, en el esfuerzo, en el sufrimiento que supone la lucha.", 
+        "autor": "Mahatma Gandhi"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La creatividad es la inteligencia divirtiéndose.", 
+        "autor": "Albert Einstein"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No hay reglas para la creatividad, por eso funciona.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La innovación es lo que distingue a un líder de los demás.", 
+        "autor": "Steve Jobs"
+    }, 
+    {
+        "id": 1, 
+        "frase": "La imaginación es más importante que el conocimiento.", 
+        "autor": "Albert Einstein"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Crea algo hoy, aunque sea pequeño.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El tiempo es el recurso más valioso que tenemos.", 
+        "autor": "Stephen R. Covey"
+    }, 
+    {
+        "id": 1, 
+        "frase": "No digas que no tienes tiempo. Tienes exactamente el mismo número de horas al día que Mandela, Da Vinci o Einstein.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El momento adecuado es ahora.", 
+        "autor": "Anónimo"
+    }, 
+    {
+        "id": 1, 
+        "frase": "El tiempo perdido nunca se recupera.", 
+        "autor": "Benjamin Franklin"
+    }, 
+    {
+        "id": 1, 
+        "frase": "Haz hoy lo que otros no quieren, haz mañana lo que otros no pueden.", 
+        "autor": "Gary Player"
+    }
+]

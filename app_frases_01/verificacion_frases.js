@@ -1,4 +1,4 @@
-import { FrasesModel } from "../models/modelo_frases.js";
+import { FrasesModel } from "./modelo_frases.js";
 
 
 const comprobarAutorFrase = async (autor_ingresado) => {

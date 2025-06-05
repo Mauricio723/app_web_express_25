@@ -2,8 +2,8 @@ import express from "express";
 
 import multer from "multer"; 
 
-import { frasesRouter } from "./routes/rutas_frases.js";
-
+import { frasesRouter } from "./app_frases_01/rutas_frases.js";
+import { blogRouter } from "./app_blog_01/rutas_blog_01.js";
 
 const app = express(); 
 
@@ -36,7 +36,9 @@ app.post("/agregar_nueva_frace", (req, res) => {
 });
 */
 
-app.use("/fraces", frasesRouter); 
+app.use("/frases", frasesRouter); 
+
+app.use("/blog", blogRouter);
 
 const PORT = process.env.PORT ?? 3005;
 

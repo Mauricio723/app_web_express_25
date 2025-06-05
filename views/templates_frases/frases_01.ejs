@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Célebres</title>
+
+    <link rel="stylesheet" href="/estilos_css/estilos_main.css">
+
+    <link rel="stylesheet" href="/estilos_css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/estilos_css/estilos_frases.css">
+
+    <link rel="stylesheet" href="/estilos_css/colores_const.css">
+
+    <style>
+        .elemento_centrado_75 {
+            width: 75%;
+            margin: auto;
+        }
+
+        .altura_150 {
+            height: 150px;
+        }
+    </style>
+
+</head>
+
+<body class="bg_aliceblue">
+    <header class="bg_lightslategrey px-1 py-1">
+        <h4 class="text_whitesmoke mx-1 my-1">SurCode25</h4>
+        <h2 class="text_linen text-center">Fraces Célebres</h2>
+    </header>
+    <main class="mx-1 my-1">
+        <section class="mx-1 my-1">
+
+            <div class="mx-1 my-1 border border-warning">
+
+                <!--
+                <article class="estilo_article">
+                    <div class="div_article_01">
+
+                        <div class="div_contenedor_frases">
+                            <% arreglo_frases.forEach(function(frase) { %>
+                                <div class="div_frase">
+                                    <h5 class="number_frase">id: <%= frase.id %>
+                                    </h5>
+                                    <h3 class="texto_frase">
+                                        <%= frase.frase %>
+                                    </h3>
+                                    <h4 class="autor_frase">
+                                        <%= frase.nombre %>
+                                    </h4>
+                                </div>
+                                <% }) %>
+                        </div>
+                    </div>
+
+                </article>
+                -->
+
+                <article>
+                    <h3>Prueba de Carrousel</h3>
+
+                    <div class="container-fluid mx-1 my-1 px-1 py-1 border">
+
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-1 col-lg-2 bg_cyan">
+
+                            </div>
+                            <div class="col-sm-12 col-md-10 col-lg-8">
+
+                                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active bg_green">
+                                            <div class="text_orange elemento_centrado_75 my-3 px-2 py-2 border">
+
+                                                <div class="mb-3">
+                                                    <div class="">
+                                                        <h5>id: 0</h5>
+                                                    </div>
+                                                    <div class="">
+
+                                                        <div class="altura_150 border">
+                                                            <h5 class="text-center mx-1 my-2 border border-warning">
+                                                                Frases Célebres
+                                                            </h5>
+                                                            <p class="mx-1 my-1 px-1 py-1">
+                                                                Las frases se muestran en secuencia automaticamente. 
+                                                                Si posiciona el puntero del mouse sobre la frase, se 
+                                                                pausará la secuencia hasta que lo retire.
+                                                                También puede desplazarce hacia atras o adelante con 
+                                                                los controles: "&lt;" o "&gt;".
+                                                            </p>
+                                                        </div>
+
+                                                        <h5 class="text-end bg_black text_yellow mx-2">
+                                                           SurCode25
+                                                        </h5>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <% arreglo_frases.forEach(function(frase) { %>
+
+                                            <div class="carousel-item bg_green">
+                                                <div class="text_orange elemento_centrado_75 my-3 px-2 py-2 border">
+
+
+                                                    <div class="mb-3">
+                                                        <div class="">
+                                                            <h5 class="mx-2">id: <%= frase.id %>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="">
+
+                                                            <div class="altura_150 border">
+
+                                                                <% if (frase.frase.length < 130) { %>
+                                                                    <div
+                                                                        class="mx-2 my-2 px-2 py-2 border border-danger">
+                                                                    </div>
+                                                                    <% } %>
+
+                                                                        <h4
+                                                                            class="mx-1 my-2 px-1 py-1 border border-warning">
+                                                                            <%= frase.frase %>
+                                                                        </h4>
+                                                            </div>
+
+                                                            <h5 class="text-end mx-2">
+                                                                <%= frase.nombre %>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                            <% }) %>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-1 col-lg-2 bg_cyan">
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h3>Carrousel fade</h3>
+
+
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <div class="bg_blue text_orange px-2 py-2">
+                                        <h1 class="text-center">Item carousel 01</h1>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="bg_blue text_red px-2 py-2">
+                                        <h1 class="text-center">Item Carousel 02</h1>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="bg_green text_white px-2 py-2">
+                                        <h1 class="text-center">Item Carousel 03</h1>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg_dimgrey text_linen px-1 py-1">
+        <div class="mx-1 my-1">
+            <p class="">Autor: Salvador Mauricio Vilches Jerez</p>
+            <p class="">Fecha publicación: Actualmente en etapa de desarrollo</p>
+        </div>
+    </footer>
+
+    <script src="/scripts_js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

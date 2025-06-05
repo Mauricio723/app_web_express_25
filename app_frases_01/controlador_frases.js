@@ -1,13 +1,13 @@
-import { FrasesModel } from "../models/modelo_frases.js";
+import { FrasesModel } from "./modelo_frases.js";
 //import { comprobarAutorFrase } from "./verificacion_frases.js";
 
-export class FracesController {
+export class FrasesController {
     
     static async obtenerFrases(req, res) {
         const frases = await FrasesModel.obtenerFrases();
         const arreglo_frases = frases[0]
        
-        res.render("fraces_01",{ arreglo_frases });
+        res.render("templates_frases/frases_01",{ arreglo_frases });
 
     }
 
@@ -41,7 +41,7 @@ export class FracesController {
 
         // verificamos si la frase ingresada existe en la base de datos.
 
-       if (frases_existentes[0].some(frase => frase.frace === frase_ingresada)) {
+       if (frases_existentes[0].some(frase => frase.frase === frase_ingresada)) {
             return res.json({ mensaje: "La frase ingresada ya existe en la base de datos"});
        } else {
             // si la frase no existe en la base de datos, la guardamos.
@@ -98,9 +98,9 @@ export class FracesController {
         
     }
 
-    static async agregar_frace(req, res) {
+    static async agregar_frase(req, res) {
 
-        const frace_nueva = req.body.nueva_frace;
+        const frase_nueva = req.body.nueva_frase;
         const autor_nuevo = req.body.nuevo_autor;
        
        //console.log("controlador_fraces -> frace: ", frace_nueva);
@@ -116,11 +116,11 @@ export class FracesController {
             if (autor.nombre === autor_nuevo) {
                 console.log("El autor ya existe");
                 
-                if (frases && frases[0].some(frase => frase.frace === frace_nueva)) {
+                if (frases && frases[0].some(frase => frase.frase === frase_nueva)) {
                     console.log("la frase ya existe");
                     return "frase y autor ya existen";
                 } else {
-                    const datos_frase_agregada = FrasesModel.agregarFrase(autor.id, frace_nueva);
+                    const datos_frase_agregada = FrasesModel.agregarFrase(autor.id, frase_nueva);
                     //return "el autor existe pero la frase no";
                     return res.json(datos_frase_agregada);
                     
